@@ -1,3 +1,10 @@
 def square_array(array)
-  # your code here
+  l = 0
+  new_numbers = []
+
+  while l < array.length do
+    new_numbers.push(Integer.sqrt(array[l]))
+    l += 1
+  end
+  return new_numbers
 end
